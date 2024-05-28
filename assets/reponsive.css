@@ -1,0 +1,244 @@
+/* PC */
+@media (min-width: 1024px){
+
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    #header{
+        height: 60px;
+    }
+    #nav li a{
+        padding:0 20px !important ;
+    }
+    .sound{
+        display: none;
+    }
+    .text-content{
+      display: none;
+    }
+    .text-more{
+        width: 60%;
+        height: 20%;
+        left: 20%;
+        right: 20%;
+        top: 25%;
+    
+    }
+    .text-more h3{
+        font-size: 28px;
+    }
+    .text-more a{  
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    
+    .hairstyle-list .icon-text{  
+        bottom: 22% !important;
+        font-size: 12px;
+    }
+    .member-list .icon-text{
+     font-size: 14px !important;
+     width: 70% !important;
+    }
+    .member-list .icon-text:hover{
+        width: 85% !important;
+    }
+    #slider{
+        height: 920px;
+        margin-top: 0;
+    }
+    #nav li a{
+        line-height: 60px;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .footer-time{
+        width: 35% !important;
+    }
+    .line-footer.unline{
+        display: none !important;
+    }
+    .footer-icon{
+        padding-left: 20px;
+        width: 63% !important;
+    }
+    .subicon-footer{
+        padding-top: 20px !important;
+    }
+    #content > div.content-section{
+        margin: 0 30px;
+    }
+    #contact > div.describe{
+        margin-bottom: 50px;
+    }
+    #contact >.table >.form{
+        padding: 40px 0;
+    }
+    #contact > div.table iframe{
+        width: 100%;
+        height: 250px;
+        margin-left: -50px !important;
+    }
+    
+}
+/* Mobile */
+@media (max-width: 739px){
+
+    #nav li a{
+        padding:0 8px !important ;
+        font-size: 10px;
+    }
+    .sound{
+        display: none;
+    }
+    .text-content{
+      display: none;
+    }
+    .text-more{
+        width: 60%;
+        height: 30%;
+        left: 20%;
+        right: 20%;
+        top: 30%;
+        opacity: 0.6;
+    
+    }
+    .text-more h3{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .text-more a{  
+        margin-top: 40px;
+        font-size: 13px;
+    }
+    #slider{
+        height: 590px;
+        margin-top: 0;
+    }
+    #nav li a{
+        line-height: 50px;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .footer-time{
+        display: none;
+    }
+    .four-st{
+        display: none !important;
+    }
+    .line-footer{
+        display: none !important;
+    }
+    .footer-icon{
+        padding-left: 20px;
+        width: 90% !important;
+    }
+    .subicon-footer{
+        padding-top: 22px !important;
+        font-size: 25px !important;
+    }
+    .text-hfooter{
+        margin: 15px !important;
+        font-size: 18px !important;
+    }
+    marquee{
+        font-size: 10px !important;
+    }
+    p.text-descfooter2{
+        font-size: 14px;
+    }
+    .text-bottom strong{
+        font-size: 13px;
+    }
+    #content{
+        padding-top: 50px;
+    }
+    #content > div.content-section > h1{
+        font-size: 25px !important;
+    }
+    #content > div.content-section > h3{
+        font-size: 15px !important;
+        text-align: center;
+    }
+    #content > div.content-section > p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    #content > div.content-section{
+        margin: 0 20px;
+    }
+    #content > div.content-section img{
+        width: 100%;       
+    }
+    #content .member-main > img:nth-child(2){
+        display: none;
+    }
+    #content > div > h1{
+        font-size: 25px !important;
+    }
+    #content .hairstyle-list{
+        width: 40%;
+    }
+    .hairstyle-list .icon-text{  
+        right: 6%;
+        bottom: 25% !important;
+        font-size: 10px;
+    }
+    .member-list .icon-text{
+        font-size: 9px !important;
+        width: 80% !important;
+       }
+    .member-list .icon-text:hover{
+           width: 96% !important;
+    }
+    p.member-name{
+        font-size: 13px;
+    }
+    .none-hover{
+        display: none !important;
+    }
+    #contact {
+       padding-top:120px; 
+        height: 900px;
+    }
+    #contact > img{
+        display: none;
+    }
+    #contact > div.describe{
+        width: 100%;
+    }
+    #contact .form{
+        width: 100%;
+    }
+    #contact > div.table iframe{
+        display: none;
+    }
+    .hairstyle-list > p{
+        font-size: 11px;
+    }
+    body > div.buy-now{
+        margin-top: 120px !important;
+    }
+    .icon-buy{
+        height: 30px !important;
+        bottom: 50px !important;
+    }
+    .booking{
+        top: 25%;
+    }
+    .booking .booking-head{
+        height: 15%;
+    }
+    .booking-head label{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .booking .booking-body{
+        padding: 10px 20px;
+    }
+    p.name-sp{
+        font-size: 16px !important;
+    }
+}
